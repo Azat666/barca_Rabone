@@ -1,0 +1,10 @@
+<resources>
+    <dimen name="fab_margin">16dp</dimen>
+    <dimen name="start_coment">111dp</dimen>
+    <dimen name="size_heart">2dp</dimen>
+    <dimen name="comment_button">114dp</dimen>
+    <dimen name="heart_pating">10dp</dimen>
+    <dimen name="comment_">140dp</dimen>
+    <dimen name="coment_size">170dp</dimen>
+    <dimen name="recycler_padding">55dp</dimen>
+</resources>

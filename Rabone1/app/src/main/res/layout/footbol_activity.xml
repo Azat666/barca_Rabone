@@ -1,0 +1,81 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:id="@+id/relc_activity"
+    android:layout_width="match_parent"
+    android:layout_height="200dp"
+
+    android:orientation="vertical">
+
+    <android.support.v7.widget.CardView
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:layout_alignParentStart="true"
+
+        android:layout_alignParentTop="true">
+
+        <RelativeLayout
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:background="@color/color_heart">
+
+
+            <ImageView
+                android:id="@+id/image_View"
+                android:layout_width="match_parent"
+                android:layout_height="150dp"
+                android:layout_alignParentStart="true"
+                android:layout_alignParentTop="true"
+                android:scaleType="centerCrop"
+                android:src="@drawable/barca" />
+
+            <ImageButton
+                android:id="@+id/button_heart"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_below="@+id/image_View"
+                android:background="@color/cardview_shadow_end_color"
+                android:padding="@dimen/size_heart"
+                android:src="@drawable/ic_favorite_black_" />
+
+            <TextView
+                android:id="@+id/text_linke"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_alignParentStart="true"
+                android:layout_below="@id/button_heart"
+                android:paddingStart="@dimen/heart_pating"
+                android:text="@string/liz_size" />
+
+            <ImageButton
+                android:id="@+id/button_comment"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_below="@+id/image_View"
+                android:layout_marginEnd="@dimen/comment_button"
+                android:layout_toStartOf="@+id/button"
+                android:background="@color/cardview_shadow_end_color"
+                android:src="@drawable/ic_comment_black_" />
+
+            <TextView
+                android:id="@+id/conter_comment"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_alignEnd="@+id/button_comment"
+                android:layout_below="@+id/button_heart"
+                android:layout_toEndOf="@+id/button_heart"
+                android:paddingStart="@dimen/coment_size"
+                android:text="@string/liz_size" />
+
+            <Button
+                android:id="@+id/button"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_alignParentRight="true"
+                android:layout_below="@+id/image_View"
+                android:layout_centerInParent="true"
+                android:background="@color/color_button"
+                android:text="@string/share"
+                android:textColor="@color/color_text" />
+        </RelativeLayout>
+    </android.support.v7.widget.CardView>
+</RelativeLayout>

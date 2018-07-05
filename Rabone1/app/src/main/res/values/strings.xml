@@ -1,0 +1,9 @@
+<resources>
+    <string name="app_name">RaboneFootbol</string>
+    <string name="action_settings">Settings</string>
+    <string name="share">Share</string>
+    <string name="liz_size">0</string>
+    <string name="title_activity_first">FirstActivity</string>
+    <string name="add_your_url">Add your URL</string>
+    <string name="add_url">add Url</string>
+</resources>
